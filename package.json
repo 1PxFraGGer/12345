@@ -1,0 +1,12 @@
+{
+  "name": "university-meta-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-vercel.mjs",
+    "build:cloudflare": "node build.mjs",
+    "start": "node preview.mjs"
+  },
+  "engines": { "node": "22.x" }
+}
